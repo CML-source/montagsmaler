@@ -1,0 +1,42 @@
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #FF5722;
+    --background-color: #333333;
+    --text-color: #F5F5F5;
+}
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+main {
+    padding: 2rem;
+    text-align: center;
+}
+main button {
+    background-color: var(--secondary-color);
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+}
+main button:hover {
+    background-color: #E64A19;
+}
+#oldWords {
+    font-size: 0.7rem;
+    margin-top: 1rem;
+}

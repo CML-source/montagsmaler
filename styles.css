@@ -28,7 +28,7 @@ main {
 }
 main button {
     background-color: var(--secondary-color);
-    width: 80%;
+    width: 200px;
     border: none;
     border-radius: 10px;
     color: white;

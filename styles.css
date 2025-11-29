@@ -43,5 +43,5 @@ main button:hover {
 #oldWords {
     font-size: 0.7rem;
     margin: 1rem auto;
-    max-width: 1024px;
+    max-width: 50%;
 }

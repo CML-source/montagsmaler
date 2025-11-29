@@ -1,4 +1,5 @@
 let words = [];
+let nWord = 0;
 
 function getWordList() {
     fetch('words.txt')
@@ -24,8 +25,11 @@ function onClickStartGame() {
     const word = getRandomWord();
     if (word) {
         const wordDisplay = document.querySelector('#newWord');
+        if (nWord > 0) {
         const oldWordsDisplay = document.querySelector('#oldWords');
         oldWordsDisplay.textContent += wordDisplay.textContent + ', ';
+        }
+        nWord += 1;
         wordDisplay.textContent = word;
     }
 }

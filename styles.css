@@ -19,7 +19,7 @@ header {
 }
 header p {
     margin: 0;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     text-align: right;
 }
 main {
@@ -42,5 +42,6 @@ main button:hover {
 }
 #oldWords {
     font-size: 0.7rem;
-    margin-top: 1rem;
+    margin: 1rem auto;
+    max-width: 1024px;
 }
